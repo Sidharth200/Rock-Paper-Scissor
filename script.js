@@ -28,15 +28,15 @@ const playGame = (userChoice) => {
         (userChoice === "scissors" && compChoice === "paper")
     ) {
         msg.innerText = "You win!";
-        msg.computedStyleMap.backgroundColor = "green";
         userScore++;
         userScore1.innerText = userScore;
+        msg.style.backgroundColor = "green";
 
     } else {
         msg.innerText = "Computer wins!";
-        msg.computedStyleMap.backgroundColor = "red";
         compScore++;
         compScoreEl.innerText = compScore;
+        msg.style.backgroundColor = "red";
     }
 
 };
