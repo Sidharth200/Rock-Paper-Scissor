@@ -35,7 +35,7 @@ This game allows the player to choose between Rock, Paper, or Scissors, and then
 
 ## Preview
 
-You can see a live preview of the game [here](#) (replace this with the link to your deployed game).
+You can see a live preview of the game https://rock-paper-scissor-eight-theta.vercel.app/
 
 ## Credits
 
