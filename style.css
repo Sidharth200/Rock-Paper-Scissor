@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-h1{
+h1 {
     background-color: #081b31;
     color: white;
     height: 5rem;
     line-height: 5rem;
 }
 
-.choices{
+.choices {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,46 +20,55 @@ h1{
     margin-bottom: 5rem;
 }
 
-.choice:hover{
+.choice:hover {
     cursor: pointer;
+    animation: scaleUp 0.2s ease forwards; /* Added animation on hover */
 }
 
-.choice{
+@keyframes scaleUp {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.choice {
     width: 165px;
     height: 165px;
 }
 
-img{
+img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-img:hover{
+img:hover {
     border: 5px solid #081b31;
 }
 
-.score-board{
+.score-board {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     gap: 5rem;
     margin-top: 3rem;
-    
 }
 
-#user-score, #comp-score {
+#user-score,
+#comp-score {
     font-size: 4rem;
 }
 
-.msg_container{
+.msg_container {
     margin-top: 5rem;
 }
 
-
-#msg{
+#msg {
     background-color: #081b31;
     color: #fff;
     font-size: 2rem;
@@ -67,4 +76,3 @@ img:hover{
     padding: 1rem;
     border-radius: 2rem;
 }
-

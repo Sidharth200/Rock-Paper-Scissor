@@ -14,6 +14,7 @@ const getCompChoice = () => {
 
 const drawGame = () => {
     msg.innerText = "It's a Tie";
+    msg.style.backgroundColor = "#081b31";
 };
 
 const playGame = (userChoice) => {

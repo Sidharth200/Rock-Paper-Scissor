@@ -1,0 +1,32 @@
+
+/* Media Query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .choices {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .choice {
+        width: 100px;
+        height: 100px;
+    }
+
+    img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .score-board {
+        font-size: 1.5rem;
+        gap: 3rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 3rem;
+    }
+}
